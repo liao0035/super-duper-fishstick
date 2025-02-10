@@ -13,7 +13,7 @@ const MODE = Object.freeze({
 // 127.0.0.1 -hostname
 
 let mode = (() => {
-  if ((location.hostname = "localhost" || location.hostname == "127.0.0.1")) {
+  if (location.hostname == "localhost" || location.hostname == "127.0.0.1") {
     return MODE.DEV; //DEV
   }
   if (location.hostname.endsWith("github.io")) {
