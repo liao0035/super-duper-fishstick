@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", init);
-
-function init() {
+//https://super-duper-fishstick-peach.vercel.app/
+https: function init() {
   //page is ready to use
 }
